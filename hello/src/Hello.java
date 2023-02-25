@@ -2,7 +2,8 @@
 public class Hello {
 
 	public static void main(String[] args) {
-		//2ì›” 25ì¼ ë°°ì—´ ê³µë¶€
+		System.out.println("2¿ù 25ÀÏ ¹è¿­ °øºÎ");
+		
 	}
 
 }
