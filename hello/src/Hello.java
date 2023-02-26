@@ -13,6 +13,7 @@ public class Hello {
 		 *일반적으로 자바에서는 하나의 소스파일에 하나의 클래스만을 담는 것이 원칙이다.
 		 *ex)Television클래스는 Television.java에 저장되고 TelevisionTest클래스는 TelevisionTest.java에 저장되어야한다.
 		 *하지만 귀찮아서 하나의 소스파일에 여러개의 클래스를 넣을 수도 있다. 이때 반드시 public앞에 있는 클래스는 소스파일의 이름과 일치해야한다.
+		 *
 		 * 
 		 * 
 		 * 
