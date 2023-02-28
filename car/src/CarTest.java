@@ -3,9 +3,9 @@ public class CarTest {
 
 	public static void main(String[] args) {
 		
-		//¾¾¹ß
+		//ï¿½ï¿½ï¿½ï¿½
 		Car car = new Car();
-		car.setColor("»¡°­»ö");
+		car.setColor("ë¹¨ê°„ìƒ‰");
 		car.changeGear(2);
 		car.speedUp();
 		System.out.println(car);
