@@ -1,4 +1,4 @@
-//ÇÑ±Û ±úÁü °íÄ¡±â
+
 public class MathTest {
 	
 	public static void main(String[] args) {
