@@ -5,7 +5,7 @@ public class TelevisionTest {
 		Television tv = new Television();
 		tv.setChannel(11);
 		int ch = tv.getChannel();
-		System.out.println("현재 채널은 "+ ch + "입니다");
+		System.out.println("현재 채널은 "+ ch + "입니다");//
 		
 
 	}
