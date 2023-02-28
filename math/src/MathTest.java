@@ -1,6 +1,6 @@
-
+//ÇÑ±Û ±úÁü °íÄ¡±â
 public class MathTest {
-	//ÇÑ±Û ±úÁü °íÄ¡±â
+	
 	public static void main(String[] args) {
 		
 		int sum;
