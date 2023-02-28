@@ -1,3 +1,4 @@
+
 class A {
 	private int a;
 	int b;
