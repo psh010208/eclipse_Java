@@ -2,10 +2,11 @@
 public class TelevisionTest {
 
 	public static void main(String[] args) {
+		//한글 깨짐 고치기
 		Television tv = new Television();
 		tv.setChannel(11);
 		int ch = tv.getChannel();
-		System.out.println("현재 채널은 "+ ch + "입니다");//한글 깨짐 고치기
+		System.out.println("현재 채널은 "+ ch + "입니다");
 		
 
 	}
