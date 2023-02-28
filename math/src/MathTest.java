@@ -2,7 +2,7 @@
 public class MathTest {
 	
 	public static void main(String[] args) {
-		
+		//ÇÑ±Û ±úÁü °íÄ¡±â
 		int sum;
 		Math obj = new Math();
 		sum = obj.add(2, 3);
