@@ -25,6 +25,7 @@ public class StringTest {
 		String other = " has no value";
 		String sentence = subject + other;
 		System.out.println(sentence);
+		
 	}
 
 }

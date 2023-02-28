@@ -5,7 +5,7 @@ public class CarTest {
 		
 		//
 		Car car = new Car();
-		car.setColor("ë¹¨ê°„ìƒ‰");
+		car.setColor("»¡°­");
 		car.changeGear(2);
 		car.speedUp();
 		System.out.println(car);

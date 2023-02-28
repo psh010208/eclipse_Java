@@ -16,6 +16,7 @@ public class StringTest2 {
 				System.out.println(str + "은 'www'로 시작합니다.");
 			else
 				System.out.println(str + "은 'www'로 시작하지 않습니다.");
+			
 		}
 
 	}

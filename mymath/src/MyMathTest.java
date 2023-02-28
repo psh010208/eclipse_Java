@@ -7,6 +7,7 @@ public class MyMathTest {
 		System.out.println(obj.square(10));
         System.out.println(obj.square(3.14));
         
+        
 	}
 
 }

@@ -26,6 +26,7 @@ public class Car {
 	
 	void speedDown() {
 		speed = speed - 1;
+		
 	}
 	
 }

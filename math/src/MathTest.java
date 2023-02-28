@@ -9,6 +9,7 @@ public class MathTest {
 		sum = obj.add(7, 8);
 		System.out.println("7¿Í 8ÀÇ ÇÕ : " + sum);
 
+		
 	}
 
 }

@@ -7,5 +7,6 @@ public class MyMath {
 	
 	double square(double i) {
 		return i * i;
+		
 	}
 }
