@@ -9,6 +9,7 @@ public class EmployeeTest {
 		
 		int n = Employee.getCount();
 		System.out.println("현재의 직원수 = " + n);
+		
 
 	}
 
