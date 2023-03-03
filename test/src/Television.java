@@ -4,6 +4,7 @@ public class Television {
 	private int channel;
 	private int volume;
 	private boolean onOff;
+	static int count; // 정적 변수(클래스 변수) 생성 -> 객체를 생성하지 않고 Television.count로 접근 가능
 	
 	Television(int c, int v, boolean o){
 		channel = c;
