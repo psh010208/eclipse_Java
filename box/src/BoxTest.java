@@ -2,14 +2,13 @@
 public class BoxTest {
 
 	public static void main(String[] args) {
-		Box b = new Box(20, 20, 30);
-		/*
-		b.width = 20;
-		b.length = 20;
-		b.height = 30;
-		System.out.println("상자의 가로 세로 높이는 : " + b.width + " " + b.length + " " + b.height + "입니다");
-		*/
-		System.out.println("상자의 부피는 " + b.getVolume());
-	}
 
+		Box obj1 = new Box(10, 20, 50);
+		Box obj2 = new Box(10, 30, 30);
+
+		
+		Box largest = obj1.whosLargest(obj1, obj2);		
+		System.out.println("(" + largest.width + "," + largest.length + "," + largest.height + ")");
+
+	}
 }
