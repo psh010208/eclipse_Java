@@ -4,7 +4,7 @@ public class Account {
 	private String name;
 	private int balance;
 	
-	//Source -> Generate Getters and Setters를 이용하면 필드를 지정해서 자동으로 설정자와 접근자를 생성해줌
+	//Source -> Generate Getters and Setters를 이용하면 필드를 지정해서 자동으로 설정자와 접근자를 생성해줌.
 	public int getRegNumber() {
 		return regNumber;
 	}
