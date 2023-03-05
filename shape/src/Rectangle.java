@@ -29,4 +29,5 @@ public class Rectangle extends Shape{
 	void draw() {
 		System.out.println("(" + this.getX() + "," + this.getY() + ") 위치에 가로 : " + this.getWidth() + " 세로 : " + this.getHeight());
 	}
+	
 }

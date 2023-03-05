@@ -19,6 +19,7 @@ public class RectangleTest {
 		a.draw();
 		b.print();
 		b.draw();
+		
 
 	}
 

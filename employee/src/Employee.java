@@ -1,25 +1,22 @@
 
 public class Employee {
 
-	private String name;
-	private double salary;
+	public String name; // 이름 : public 멤버
+	String address; // 주소 : package 멤버
+	protected int salary; // 월급 : protected 멤버
+	private int numbers; // 주민등록번호 : private 멤버
 	
-	private static int count = 0; // 정적 변수
-	
-	// 생성자
-	public Employee(String n, double s) {
-		name = n;
-		salary = s;
-		count++; // 정적 변수인 count를 증가
+	public Employee(String name, String address, int salary, int numbers) {
+		this.name = name;
+		this.address = address;
+		this.salary = salary;
+		this.numbers = numbers;
+	}
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", address=" + address + ", salary=" + salary + ", numbers=" + numbers + "]";
 	}
 	
-	// 객체가 소멸될 때 호출
-	public void finalize() {
-		count--; // 직원이 하나 줄어드므로 count를 하나 감소
-	}
 	
-	//정적 메소드
-	public static int getCount() {
-		return count;
-	}
+	
 }

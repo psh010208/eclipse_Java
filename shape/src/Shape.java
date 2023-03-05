@@ -3,8 +3,7 @@
 public class Shape {
 
 	private int x; // 도형의 x좌표
-	private int y; // 도형의 y좌표
-	
+	private int y; // 도형의 y좌표	
 	
 	public int getX() {
 		return x;
