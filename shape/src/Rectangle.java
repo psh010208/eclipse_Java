@@ -1,33 +1,18 @@
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
-	private int width; // 사각형의 가로
-	private int height; // 사각형의 세로
+	private int width;
+	private int height;
 	
-	
-	
-	public int getWidth() {
-		return width;
-	}
-
-	public void setWidth(int width) {
+	public Rectangle(int x, int y, int width, int height) {
+		super(x, y);
+		System.out.println("Ractengle()");
 		this.width = width;
-	}
-
-	public int getHeight() {
-		return height;
-	}
-
-	public void setHeight(int height) {
 		this.height = height;
 	}
-
-	double area(int width, int height) {
-		return (double)width * height;
-	}
 	
-	void draw() {
-		System.out.println("(" + this.getX() + "," + this.getY() + ") 위치에 가로 : " + this.getWidth() + " 세로 : " + this.getHeight());
+	double calcArea() {
+		return width * height;
 	}
 	
 }
