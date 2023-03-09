@@ -2,29 +2,18 @@
 public class Date {
 
 	private int year;
-	private String month;
-	private int day;
+	private int month;
+	private int date;
 	
-	public Date() {
-		this(0, "0¿ù", 0);
-	}
-
-	public Date(int year){
-
-		this(year, "0¿ù", 0);
-	}
-	
-	public Date(int year, String month, int day){
+	public Date(int year, int month, int date) {
 		this.year = year;
 		this.month = month;
-		this.day = day;
+		this.date = date;
 	}
-	
-	
+
 	@Override
 	public String toString() {
-		return "Date [year=" + year + ", month=" + month + ", day=" + day + "]";
+		return "Date [year=" + year + ", month=" + month + ", date=" + date + "]";
 	}
-	
 	
 }
