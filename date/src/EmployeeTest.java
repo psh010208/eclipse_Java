@@ -2,8 +2,8 @@
 public class EmployeeTest {
 
 	public static void main(String[] args) {
-		Date birth = new Date(2001, 2, 8);
-		Employee employee = new Employee("박상현", birth);
+		Date birth = new Date(2001, 5, 9);
+		Employee employee = new Employee("이채원", birth);
 		System.out.println(employee);
 
 	}
