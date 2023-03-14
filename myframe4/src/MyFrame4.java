@@ -22,7 +22,7 @@ public class MyFrame4 extends JFrame{
 		p.add(b3);
 		
 		b1.setBounds(50, 5, 95, 30);
-		b2.setBounds(55, 45, 105, 70);
+		b2.setBounds(60, 45, 105, 70);
 		b3.setBounds(180, 150, 105, 90);
 		add(p);
 		setVisible(true);
