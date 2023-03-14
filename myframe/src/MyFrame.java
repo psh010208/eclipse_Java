@@ -1,9 +1,10 @@
-import javax.swing.*;
-
 import java.awt.Dimension;
 import java.awt.FlowLayout;
-import java.awt.Toolkit;
 import java.awt.Image;
+import java.awt.Toolkit;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
 
 public class MyFrame extends JFrame{
 
